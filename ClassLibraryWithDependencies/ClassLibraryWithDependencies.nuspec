@@ -1,0 +1,19 @@
+﻿<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>ClassLibraryWithDependencies</id>
+    <version>1.0.0.0</version>
+    <authors>Nicholas McCollum</authors>
+    <owners>Nicholas McCollum</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Sample class library NuGet package with dependencies</description>
+    <copyright>Copyright 2016</copyright>
+	<releaseNotes>Here are some sample release notes</releaseNotes>
+	<dependencies>
+		<dependency id="WindowsAzure.Storage" version="7.0.0"></dependency>
+	</dependencies>
+  </metadata>
+  <files>
+    <file src="ClassLibraryWithDependencies.dll" target="lib\net452" />
+  </files>
+</package>
